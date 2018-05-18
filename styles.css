@@ -21,9 +21,7 @@
 }
 
 
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+/* Zebra Striped Table */
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -39,5 +37,4 @@ th, td {
 tr:nth-child(even) {
     background-color: #f2f2f2
 }
-</style>
-</head>
+

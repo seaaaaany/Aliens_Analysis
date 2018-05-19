@@ -11,6 +11,13 @@ var $searchBtn2 = document.querySelector("#search2");
 var $searchBtn3 = document.querySelector("#search3");
 var $searchBtn4 = document.querySelector("#search4");
 
+// Add an event listener to the searchButton, call handleSearchButtonClick when clicked
+$searchBtn.addEventListener("click", handleSearchButtonClick);
+$searchBtn1.addEventListener("click", handleSearchButtonClick1);
+$searchBtn2.addEventListener("click", handleSearchButtonClick2);
+$searchBtn3.addEventListener("click", handleSearchButtonClick3);
+$searchBtn4.addEventListener("click", handleSearchButtonClick4);
+
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
@@ -27,13 +34,6 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
-// Add an event listener to the searchButton, call handleSearchButtonClick when clicked
-$searchBtn.addEventListener("click", handleSearchButtonClick);
-$searchBtn1.addEventListener("click", handleSearchButtonClick1);
-$searchBtn2.addEventListener("click", handleSearchButtonClick2);
-$searchBtn3.addEventListener("click", handleSearchButtonClick3);
-$searchBtn4.addEventListener("click", handleSearchButtonClick4);
 
 // Set filteredUfo to dataSet initially
 var filteredUfo = dataSet;

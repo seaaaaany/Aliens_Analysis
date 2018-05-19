@@ -1,4 +1,4 @@
-// Get references to the tbody element, input field and button
+// Get references to the tbody element, input field and button.
 var $tbody = document.querySelector("tbody");
 var $dateInput = document.querySelector("#date");
 var $cityInput = document.querySelector("#city");
